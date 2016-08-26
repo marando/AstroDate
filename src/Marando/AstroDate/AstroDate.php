@@ -993,7 +993,7 @@ class AstroDate
         }
 
         // Return as hours
-        return $st->setUnit('hours');
+        return $st;
     }
 
     /**
@@ -1003,7 +1003,7 @@ class AstroDate
      */
     public function sinceMidnight()
     {
-        return Time::days($this->dayFrac)->setUnit('hours');
+        return Time::days($this->dayFrac);
     }
 
     /**
@@ -1013,7 +1013,7 @@ class AstroDate
      */
     public function untilMidnight()
     {
-        return Time::days(1 - $this->dayFrac)->setUnit('hours');
+        return Time::days(1 - $this->dayFrac);
     }
 
     // // // Protected

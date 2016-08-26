@@ -599,11 +599,11 @@ class AstroDateTest extends PHPUnit_Framework_TestCase
             1e-8,
           ],
         ];
-
+        
         foreach ($tests as $t) {
             $expt = $t[0];
             $st   = $t[1];
-            $this->assertEquals($expt, $st->toAngle()->rad, null, $t[2]);
+            $this->assertEquals($expt, Angle::time($st)->rad, null, $t[2]);
         }
     }
 

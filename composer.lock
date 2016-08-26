@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3931e777f44794240e8e74265955ac02",
-    "content-hash": "834ac060a78c035f77da803740c4320d",
+    "hash": "024fcf99bbc1c9f542b796cd4076b7f0",
+    "content-hash": "de0888e42f58d45f51bbebe026380984",
     "packages": [
         {
             "name": "marando/php-iers",
@@ -84,23 +84,24 @@
         },
         {
             "name": "marando/units",
-            "version": "0.3.4",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/marando/Units.git",
-                "reference": "8a40f09c03d18213ef2e786ca2f0564274c43159"
+                "reference": "fb77255129b2198fbb371ae8b077fa49321790d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marando/Units/zipball/8a40f09c03d18213ef2e786ca2f0564274c43159",
-                "reference": "8a40f09c03d18213ef2e786ca2f0564274c43159",
+                "url": "https://api.github.com/repos/marando/Units/zipball/fb77255129b2198fbb371ae8b077fa49321790d1",
+                "reference": "fb77255129b2198fbb371ae8b077fa49321790d1",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.0"
+                "phpunit/phpunit": "^5.0",
+                "symfony/var-dumper": "*"
             },
             "type": "library",
             "autoload": {
@@ -119,7 +120,7 @@
                 }
             ],
             "description": "A PHP package consisting of classes representing units of measure",
-            "time": "2016-06-11 06:31:50"
+            "time": "2016-08-26 04:02:29"
         }
     ],
     "packages-dev": [
